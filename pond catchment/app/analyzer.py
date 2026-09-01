@@ -132,7 +132,7 @@ def design_pond(catchment_area_sqm: float, rainfall_mm: float, runoff_coeff: flo
     rainfall_m = rainfall_mm / 1000.0
     annual_runoff_m3 = runoff_coeff * rainfall_m * catchment_area_sqm
     
-    # 2. Design Pond Capacity to capture a 50mm storm event runoff, capped at a fraction of annual runoff
+    # 2. Design Pond Capacity to capture a storm event runoff, capped at a fraction of annual runoff
     target_capacity_m3 = annual_runoff_m3 * 0.15
     
     # Cap between 150 m3 (minimum viable pond) and 15,000 m3 (large farm pond)
