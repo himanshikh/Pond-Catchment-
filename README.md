@@ -1,4 +1,3 @@
-````markdown
 #  AquaTerrace — Pond Catchment Analysis
 
 A backend-based geospatial application for analyzing contour maps and identifying suitable pond locations based on terrain and catchment characteristics.
@@ -7,7 +6,7 @@ This project is developed as **Phase 2** of the Pond Construction / Catchment An
 
 ---
 
-##  Application
+## Application
 
 The application is currently running locally at:
 
@@ -51,7 +50,7 @@ The implementation derives the results from the uploaded contour map rather than
 
 ---
 
-##  System Workflow
+## System Workflow
 
 ```text
                     Contour Map
@@ -100,7 +99,7 @@ The implementation derives the results from the uploaded contour map rather than
                        │
                        ▼
               Interactive Map Interface
-````
+
 
 ---
 
